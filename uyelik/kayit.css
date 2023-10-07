@@ -1,0 +1,30 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.container {
+    margin-top: 100px; !important;
+
+}
+
+.card {
+    border: none; !important;
+    border-radius: 15px; !important;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); !important;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.form-control {
+    border-radius: 10px;
+}
+
+.btn-primary {
+    border-radius: 10px;
+}
+
+.invalid-feedback {
+    display: block;
+}

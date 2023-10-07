@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+   }  
+    .sağ{width: 900px;margin: 200px;}
+    .sol{float: left;}
+    
+  
+  
+ 
+  
+.renk{
+  color: #008080;
+  font-size: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+  text-align: center;}
+
+p{
+
+    text-align: justify;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 17px;
+    padding: 5px;
+    text-shadow: 0px 1px 1px #ccc;
+    font-family: Arial, sans-serif;
+   
+    margin-top: 6px;
+    margin-bottom: 27px;
+    direction:initial;
+    
+    }
+.sağ .baslık{
+    color: #008080;
+    margin-left: 30px;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Kayıt Ol</title>
+    <link rel="stylesheet" href="kayıt.css">
+</head>
+<body>
+    <div class="kayit_ol">
+        <div class="kutu">
+            <div class="kayit_header">Kayıt Formu</div>
+            <form method="post" action="kayit.php">
+                <input type="text" name="ad" placeholder="Adınız" required>
+                <input type="text" name="soyad" placeholder="Soyadınız" required> <br>
+                <input type="email" name="email" placeholder="E-posta" required> <br>
+                <input type="number" name="telefon" placeholder="Telefon Numaranız" required> <br>
+                <input type="password" name="sifre" placeholder="Şifreniz" required> <br>
+                <input type="password" name="sifre2" placeholder="Şifrenizi Onaylayın" required> <br>
+                <select name="meslek">
+                    <option value="ciftci">Çiftçi</option>
+                    <option value="muhendis">Ziraat Mühendisi</option>
+                </select>
+                <input type="submit" name="kaydet" value="Kayıt Olun">
+            </form>
+            <div class="login"><a href="giris_yap.php">Giriş Yap</a></div>
+        </div>
+    </div>
+</body>
+</html>

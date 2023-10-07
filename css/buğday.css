@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+
+   }  
+
+.ul{
+  border: 1px solid #ccc;
+}
+    .sağ{width: 900px;margin: 200px;}
+    .sol{float: left;}
+    
+  
+  .sağ h1{font-size: 30px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+      margin-top: 10px;
+    
+  }
+
+.renk{color: green;}
+  
+.h2{font-size: 5px;}
+
+
+
+
+.sağ ul a li {
+    font-size: 20px;
+    margin-top: 20px;
+    font-family: sans-serif;
+    bottom: auto;
+    color: black;
+    font-style:inherit;
+    font-weight: 100  ;
+ 
+  }
+  .sağ p{
+    font-size: 18px;
+    font-family: sans-serif;
+    font-style: unset;
+    margin-top: 5px;
+    text-align: justify;
+  }
+
+  a {
+    color: #008080;
+    font-weight: bold;
+    text-decoration: none;
+}
